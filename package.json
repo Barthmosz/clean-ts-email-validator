@@ -16,6 +16,7 @@
   "files": [
     "./dist"
   ],
+  "main": "./dist/email-validator.js",
   "repository": {
     "type": "git",
     "url": "https://github.com/Barthmosz/clean-ts-email-validator"
