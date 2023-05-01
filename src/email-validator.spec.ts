@@ -6,4 +6,10 @@ describe('EmailValidator', () => {
         const isValid = sut.validate('@mail.com')
         expect(isValid).toBe(false)
     })
+
+    test('should return false if an empty email is provided', () => {
+        const sut = new EmailValidator()
+        const isValid = sut.validate('')
+        expect(isValid).toBe(false)
+    })
 })
