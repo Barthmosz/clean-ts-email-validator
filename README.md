@@ -1,1 +1,1 @@
-# Clean (TS) Library
+# Clean Email Validator
